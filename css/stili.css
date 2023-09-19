@@ -16,9 +16,14 @@ li{
     align-items: center;
 }
 
+.h1{
+    font-size: 4rem;
+    margin:4rem 0 ;
+}
+
 .titolo{
     font-size: 4rem;
-    margin: 4rem 0;
+    margin: 4rem 0 2rem;
 }
 
 .testo{
@@ -123,21 +128,13 @@ header{
     align-items: center;
 }
 
-.porzione-blu{
+.porzione-immagine{
     width: 70%;
-    height: 200px;
-    background-color:rgb(30 144 255) ;
     border: var(--border);
     margin: 20px 0;
+    background-size: cover;
 }
 
-.porzione-rosa{
-    width: 30%;
-    height: 200px;
-    background-color:rgb(255 192 203);
-    border: var(--border);
-    margin: 20px 0;
-}
 
 .inversa{
     flex-direction: row-reverse;
