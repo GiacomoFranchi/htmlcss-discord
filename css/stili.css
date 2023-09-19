@@ -4,39 +4,6 @@
     box-sizing: border-box;
 }
 
-/*Root*/
-:root{
-    --border: 1px dashed black; 
-}
-
-/*Stili Header*/
-.box-header{
-    background-color:rgb(173 216 230);
-    width: 100%;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-}
-
-.toolbar{
-    width: 70%;
-    display: flex;
-    height: 50px;
-    align-items: center;
-    margin: 10px auto;
-}
-
-/*Stili sezioni Toolbar*/
-.toolbar-box{
-    height: 30px;
-    width: calc(40% /2);
-    background-color: rgb(218 165 32);
-    border: var(--border);
-    align-self: center;
-    line-height: 30px;
-    padding-left: 10px;
-}
-
 ul{
     list-style: none;
     display: flex;
@@ -45,9 +12,73 @@ ul{
 
 li{
     margin: 0 .5rem;
+    display: flex;
+    align-items: center;
 }
+
+.titolo{
+    font-size: 4rem;
+    margin: 4rem 0;
+}
+
+.testo{
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+
+.bianco{
+    color: white;
+}
+
+.button{
+    background-color: white;
+    color: black;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.button-negative{
+    background-color: rgb(35 39 42);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 2rem;
+    margin: 20px;
+}
+
+/*Root*/
+:root{
+
+}
+
+/*Stili Header*/
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.toolbar{
+    background-color:rgb(37 94 233);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.toolbar-box{
+    width: 20%;
+    align-self: center;
+    padding: 1rem ;
+}
+
+
+
+/*Stili sezioni Toolbar*/
 .centrale{
-    width: 60%;
     text-align: center;    
 }
 
@@ -56,21 +87,24 @@ li{
     padding-right: 10px;
 }
 
+
 /*Stili Hero*/
 .container{
     width: 100%;
-    background-color: rgb(0 0 139);
-    min-height: 225px;
+    background-image: url(../img/jumbo.png);
+    background-size:cover;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    
 }
 
-.boxrosa{
+.boxheader{
     width: 60%;
-    background-color: rgb(238 130 238);
-    height: 200px;
-    border: var(--border);
+    margin: 6rem 0 9rem;
+    color: white;
 }
 
 /*Stili Sezioni Main*/
