@@ -1,9 +1,12 @@
+/*Reset*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
+/*General*/
 a{
     text-decoration: none;
     color: white;
@@ -35,9 +38,7 @@ li{
 .sottotitolo{
     margin: auto;
     font-size: 2.5rem;
-    margin-top: 7rem;
-    margin-bottom: 4rem;
-    background-image: url(/img/stars.svg);
+    padding: 3rem 2rem 0;
 }
 .testo{
     font-size: 1.5rem;
@@ -53,6 +54,7 @@ li{
     color: white;
 }
 
+/*Stili Bottoni*/
 .button-header{
     background-color: white;
     color: black;
@@ -89,11 +91,6 @@ li{
     text-decoration: none;
     font-size: 2rem;
     margin: 20px;
-}
-
-/*Root*/
-:root{
-
 }
 
 /*Stili Header*/
@@ -153,7 +150,7 @@ header{
 /*Stili Sezioni Main*/
 .row{
     width: 100%;
-    margin: 4rem auto;
+    margin: 4rem auto 0;
 }
 
 .grigia{
@@ -167,7 +164,6 @@ header{
 
 .porzione-immagine{
     width: 70%;
-    border: var(--border);
     margin: 20px 0;
     background-size: cover;
 }
@@ -183,7 +179,7 @@ header{
     margin-top: 20px;
     display: flex;
     flex-direction: column;
-
+    padding-bottom: 6rem;
 }
 
 .sezione4{
@@ -209,6 +205,14 @@ header{
     flex-direction: column;
 }
 
+.stelline{
+    display: flex;
+    background-image: url(../img/stars.svg);
+    background-size: cover;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+}
+
 /*Stili Footer*/
 .row-footer{
     width: 100%;
@@ -217,6 +221,7 @@ header{
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding-top: 3rem;
 }
 .footer{
     width:70% ;
@@ -267,14 +272,19 @@ span{
     margin: 2rem 0.2rem;
 }
 
-.box-lingua{
+.box-contatti{
     display: flex;
+    flex-direction: column;
+}
 
+.box-lingua{
+    display: flex
 }
 
 hr{
     width: 70%;
     margin: auto;
+    color: rgb(112, 134, 213);
     height: 2px;
 }
 
