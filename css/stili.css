@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
 ul{
     list-style: none;
     display: flex;
@@ -14,6 +18,8 @@ li{
     margin: 0 .5rem;
     display: flex;
     align-items: center;
+    font-size: 1.5rem;
+    padding: 1rem;
 }
 
 .h1{
@@ -44,6 +50,15 @@ li{
 
 .bianco{
     color: white;
+}
+
+.button-header{
+    background-color: white;
+    color: black;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1.5rem;
 }
 
 .button{
@@ -92,6 +107,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 2rem;
 
 }
 
@@ -146,7 +162,6 @@ header{
     width: 70%;
     display: flex;
     margin: auto;
-    align-items: center;
 }
 
 .porzione-immagine{
@@ -170,10 +185,6 @@ header{
 
 }
 
-.img.big{
-
-}
-
 .sezione4{
     width: 70%;
     display: flex;
@@ -186,19 +197,15 @@ header{
 }
 
 .card-grossa{
-    background-color: rgb(240 128 128);
-    width: calc(100% /3);
-    height: 400px;
-    border: var(--border);
+    width: 30%;
     margin: 10px auto 20px;
 }
 
 .card{
-    background-color: rgb(32 178 170);
-    width: calc(66% / 4);
-    height: 400px;
-    border: var(--border);
+    width: calc(70% / 4);
     margin: 10px auto 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 /*Stili Footer*/
@@ -206,12 +213,11 @@ header{
     width: 100%;
     margin: auto;
     background-color:rgb(35 39 42);
-    height: 100px;
     display: flex;
     align-items: center;
+    flex-direction: column;
 }
 .footer{
-    background-color: rgb(127 255 212);
     width:70% ;
     display: flex;
     justify-content: space-between;
@@ -225,3 +231,58 @@ header{
     margin: 10px 0;
 }
 
+.titolo-footer{
+    font-size: 2.5rem;
+    color:rgb(112, 134, 213) ;
+    padding-right: 2rem;
+}
+
+.ul-footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.li-footer{
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    color: white;
+    padding: 0;
+}
+.li-footer-blue{
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    color: rgb(112, 134, 213);
+    padding: 0;
+}
+
+.bandiera{
+    margin: 2rem 0.2rem;
+    height: 20px;
+}
+
+span{
+    color: white;
+    font-size: 1rem;
+    margin: 2rem 0.2rem;
+}
+
+.box-lingua{
+    display: flex;
+
+}
+
+hr{
+    width: 70%;
+    margin: auto;
+    height: 2px;
+}
+
+.button-blue-footer{
+    color: white;
+    background-color:rgb(114, 137, 218);
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    align-self: center;
+}
