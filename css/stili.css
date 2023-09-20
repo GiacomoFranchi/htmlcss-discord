@@ -62,6 +62,7 @@ li{
     border-radius: 25px;
     text-decoration: none;
     font-size: 1.5rem;
+    display: inline-block;
 }
 
 .button{
@@ -71,6 +72,7 @@ li{
     border-radius: 25px;
     text-decoration: none;
     font-size: 2rem;
+    display: inline-block;
 }
 
 .button-blue{
@@ -81,6 +83,7 @@ li{
     text-decoration: none;
     font-size: 2rem;
     align-self: center;
+    display: inline-block;
 }
 
 .button-negative{
@@ -91,6 +94,7 @@ li{
     text-decoration: none;
     font-size: 2rem;
     margin: 20px;
+    display: inline-block;
 }
 
 /*Stili Header*/
@@ -163,11 +167,14 @@ header{
 }
 
 .porzione-immagine{
-    width: 70%;
+    max-width: 100%;
     margin: 20px 0;
     background-size: cover;
 }
 
+.porzione-testo{
+    max-width: 100%;
+}
 
 .inversa{
     flex-direction: row-reverse;
@@ -208,9 +215,10 @@ header{
 .stelline{
     display: flex;
     background-image: url(../img/stars.svg);
-    background-size: cover;
+    background-size: contain;
     margin-top: 6rem;
     margin-bottom: 4rem;
+    background-repeat: no-repeat;
 }
 
 /*Stili Footer*/
