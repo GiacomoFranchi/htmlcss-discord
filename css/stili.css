@@ -292,8 +292,7 @@ span{
 hr{
     width: 70%;
     margin: auto;
-    color: rgb(112, 134, 213);
-    height: 2px;
+    border:1px solid rgb(112, 134, 213);
 }
 
 .button-blue-footer{
